@@ -60,6 +60,7 @@ function GameBoard() {
     setDigitArrays([]);
     setGuessAttempts(4);
     setHasPlayerWon(false);
+    setInputValue('');
   }
 
   function allowOnlyDigits(evt) {
